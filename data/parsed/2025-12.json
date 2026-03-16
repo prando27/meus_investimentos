@@ -1,0 +1,338 @@
+{
+  "date": "2025-12-31",
+  "patrimony": 1185728.58,
+  "monthly_return_pct": 0.84,
+  "monthly_gains": 8994.02,
+  "applications": 17385.17,
+  "movements": 9822.28,
+  "portfolio": [
+    {
+      "asset_class": "Renda Fixa",
+      "value": 716966.05,
+      "percentage": 60.47
+    },
+    {
+      "asset_class": "Ações",
+      "value": 226422.48,
+      "percentage": 19.1
+    },
+    {
+      "asset_class": "Internacional",
+      "value": 132215.03,
+      "percentage": 11.15
+    },
+    {
+      "asset_class": "FIIs",
+      "value": 91838.75,
+      "percentage": 7.75
+    },
+    {
+      "asset_class": "COE",
+      "value": 18278.53,
+      "percentage": 1.54
+    }
+  ],
+  "target_allocation": [],
+  "fixed_income": [
+    {
+      "indexer": "PRE",
+      "avg_rate": "16,32%",
+      "value": 108286.56,
+      "percentage": 15.12
+    },
+    {
+      "indexer": "IPCA+",
+      "avg_rate": "8,74%",
+      "value": 183973.49,
+      "percentage": 25.68
+    },
+    {
+      "indexer": "%CDI",
+      "avg_rate": "120,23%",
+      "value": 66113.29,
+      "percentage": 9.23
+    },
+    {
+      "indexer": "SELIC+",
+      "avg_rate": "0,13%",
+      "value": 358025.13,
+      "percentage": 49.98
+    }
+  ],
+  "stocks": [
+    {
+      "ticker": "SAPR4",
+      "quantity": 749,
+      "value": 5864.67,
+      "percentage": 2.6
+    },
+    {
+      "ticker": "ITUB4",
+      "quantity": 342,
+      "value": 13416.66,
+      "percentage": 5.9
+    },
+    {
+      "ticker": "CPLE3",
+      "quantity": 807,
+      "value": 10555.56,
+      "percentage": 4.7
+    },
+    {
+      "ticker": "B3SA3",
+      "quantity": 657,
+      "value": 9125.73,
+      "percentage": 4.0
+    },
+    {
+      "ticker": "CMIG4",
+      "quantity": 513,
+      "value": 5745.6,
+      "percentage": 2.5
+    },
+    {
+      "ticker": "TIMS3",
+      "quantity": 100,
+      "value": 2134.0,
+      "percentage": 0.9
+    },
+    {
+      "ticker": "PETR4",
+      "quantity": 833,
+      "value": 25673.06,
+      "percentage": 11.3
+    },
+    {
+      "ticker": "PRIO3",
+      "quantity": 48,
+      "value": 1988.16,
+      "percentage": 0.9
+    },
+    {
+      "ticker": "CXSE3",
+      "quantity": 128,
+      "value": 2127.36,
+      "percentage": 0.9
+    },
+    {
+      "ticker": "EGIE3",
+      "quantity": 382,
+      "value": 11983.34,
+      "percentage": 5.3
+    },
+    {
+      "ticker": "BBSE3",
+      "quantity": 789,
+      "value": 28522.35,
+      "percentage": 12.6
+    },
+    {
+      "ticker": "AGRO3",
+      "quantity": 90,
+      "value": 1794.6,
+      "percentage": 0.8
+    },
+    {
+      "ticker": "VIVT3",
+      "quantity": 252,
+      "value": 8341.2,
+      "percentage": 3.7
+    },
+    {
+      "ticker": "BBAS3",
+      "quantity": 2255,
+      "value": 49429.6,
+      "percentage": 21.8
+    },
+    {
+      "ticker": "ALUP11",
+      "quantity": 163,
+      "value": 5175.25,
+      "percentage": 2.3
+    },
+    {
+      "ticker": "BBDC4",
+      "quantity": 78,
+      "value": 1418.82,
+      "percentage": 0.6
+    },
+    {
+      "ticker": "VALE3",
+      "quantity": 541,
+      "value": 38930.36,
+      "percentage": 17.2
+    },
+    {
+      "ticker": "KLBN4",
+      "quantity": 1116,
+      "value": 4196.16,
+      "percentage": 1.9
+    }
+  ],
+  "fiis": [
+    {
+      "ticker": "TRXF11",
+      "quantity": 135,
+      "value": 13225.95,
+      "percentage": 14.4
+    },
+    {
+      "ticker": "PMLL11",
+      "quantity": 91,
+      "value": 9576.84,
+      "percentage": 10.4
+    },
+    {
+      "ticker": "BTLG11",
+      "quantity": 91,
+      "value": 9341.15,
+      "percentage": 10.2
+    },
+    {
+      "ticker": "XPLG11",
+      "quantity": 83,
+      "value": 8783.06,
+      "percentage": 9.6
+    },
+    {
+      "ticker": "KNRI11",
+      "quantity": 57,
+      "value": 8766.6,
+      "percentage": 9.5
+    },
+    {
+      "ticker": "HGLG11",
+      "quantity": 54,
+      "value": 8507.7,
+      "percentage": 9.3
+    },
+    {
+      "ticker": "VISC11",
+      "quantity": 78,
+      "value": 8505.12,
+      "percentage": 9.3
+    },
+    {
+      "ticker": "TGAR11",
+      "quantity": 87,
+      "value": 8091.0,
+      "percentage": 8.8
+    },
+    {
+      "ticker": "XPML11",
+      "quantity": 64,
+      "value": 6915.84,
+      "percentage": 7.5
+    },
+    {
+      "ticker": "RECR11",
+      "quantity": 76,
+      "value": 6231.24,
+      "percentage": 6.8
+    },
+    {
+      "ticker": "KNUQ11",
+      "quantity": 37,
+      "value": 3894.25,
+      "percentage": 4.2
+    }
+  ],
+  "sector_distribution": [
+    {
+      "sector": "Bancos",
+      "value": 64265.08,
+      "percentage": 28.4
+    },
+    {
+      "sector": "Minerais Metálicos",
+      "value": 38930.36,
+      "percentage": 17.2
+    },
+    {
+      "sector": "Energia Elétrica",
+      "value": 33459.75,
+      "percentage": 14.8
+    },
+    {
+      "sector": "Seguradoras",
+      "value": 30649.71,
+      "percentage": 13.5
+    },
+    {
+      "sector": "Exploração E/ou Refino",
+      "value": 27661.22,
+      "percentage": 12.2
+    },
+    {
+      "sector": "Serviços Financeiros Diversos",
+      "value": 9125.73,
+      "percentage": 4.0
+    },
+    {
+      "sector": "Telefonia Fixa",
+      "value": 8341.2,
+      "percentage": 3.7
+    },
+    {
+      "sector": "Água E Saneamento",
+      "value": 5864.67,
+      "percentage": 2.6
+    },
+    {
+      "sector": "Papel E Celulose",
+      "value": 4196.16,
+      "percentage": 1.9
+    },
+    {
+      "sector": "Não Classificados",
+      "value": 2134.0,
+      "percentage": 0.9
+    },
+    {
+      "sector": "Agricultura",
+      "value": 1794.6,
+      "percentage": 0.8
+    }
+  ],
+  "fii_segments": [
+    {
+      "segment": "Multicategoria",
+      "value": 58057.89,
+      "percentage": 63.2
+    },
+    {
+      "segment": "Shoppings",
+      "value": 24997.8,
+      "percentage": 27.2
+    },
+    {
+      "segment": "Logística",
+      "value": 8783.06,
+      "percentage": 9.6
+    }
+  ],
+  "proventos": {
+    "acoes": 1982.54,
+    "fiis": 744.11,
+    "cupons_rf": 3380.02,
+    "total": 6106.67
+  },
+  "acquired_assets": [
+    {
+      "asset_class": "Ações",
+      "value": 9758.03
+    },
+    {
+      "asset_class": "Fundos Imobiliários",
+      "value": 5063.3
+    },
+    {
+      "asset_class": "Internacional",
+      "value": 2000.0
+    },
+    {
+      "asset_class": "Renda Fixa",
+      "value": 563.84
+    }
+  ]
+}

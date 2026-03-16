@@ -1,0 +1,82 @@
+{
+  "date": "2025-09-30",
+  "patrimony": 1085300.82,
+  "monthly_return_pct": 1.67,
+  "monthly_gains": 15169.99,
+  "applications": 132901.25,
+  "movements": 95200.75,
+  "portfolio": [
+    {
+      "asset_class": "Renda Fixa",
+      "value": 735504.8,
+      "percentage": 67.77
+    },
+    {
+      "asset_class": "Ações",
+      "value": 196702.84,
+      "percentage": 18.12
+    },
+    {
+      "asset_class": "Internacional",
+      "value": 73912.68,
+      "percentage": 6.81
+    },
+    {
+      "asset_class": "FIIs",
+      "value": 61425.39,
+      "percentage": 5.66
+    },
+    {
+      "asset_class": "COE",
+      "value": 17728.58,
+      "percentage": 1.63
+    }
+  ],
+  "target_allocation": [],
+  "fixed_income": [
+    {
+      "indexer": "%CDI",
+      "avg_rate": "120,23%",
+      "value": 63408.16,
+      "percentage": 8.62
+    },
+    {
+      "indexer": "PRE",
+      "avg_rate": "16,22%",
+      "value": 109135.22,
+      "percentage": 14.84
+    },
+    {
+      "indexer": "IPCA+",
+      "avg_rate": "8,60%",
+      "value": 88575.78,
+      "percentage": 12.04
+    },
+    {
+      "indexer": "SELIC+",
+      "avg_rate": "0,11%",
+      "value": 474385.64,
+      "percentage": 64.5
+    }
+  ],
+  "stocks": [],
+  "fiis": [],
+  "sector_distribution": [],
+  "fii_segments": [],
+  "proventos": {
+    "acoes": 1236.96,
+    "fiis": 567.26,
+    "cupons_rf": 47.57,
+    "total": 1851.79
+  },
+  "acquired_assets": [
+    {
+      "asset_class": "Renda Fixa",
+      "value": 97201.34
+    },
+    {
+      "asset_class": "Internacional",
+      "value": 35699.91
+    }
+  ]
+}

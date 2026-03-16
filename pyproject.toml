@@ -1,0 +1,14 @@
+[project]
+name = "meus-investimentos"
+version = "0.1.0"
+description = "Investment portfolio dashboard - parses AUVP Capital PDF reports"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pdfplumber>=0.11",
+    "streamlit>=1.40",
+    "plotly>=5.24",
+    "pandas>=2.2",
+    "pytesseract>=0.3.13",
+    "pillow>=12.1.1",
+]
