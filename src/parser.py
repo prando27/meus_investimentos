@@ -76,7 +76,22 @@ def _clean_ticker(ticker: str) -> str:
 
 
 def _extract_month_from_filename(filename: str) -> str:
-    """Extract month from filename like 'Janeiro 2026 - ...'."""
+    """Extract month from filename.
+
+    Supports:
+      - Standard: '2026_01_008588553.pdf' (YYYY_MM_ACCOUNT.pdf)
+      - Legacy: 'Janeiro_2026_-_Jose_...pdf' (Portuguese month name)
+    """
+    import calendar
+
+    # Standard format: YYYY_MM_ACCOUNT.pdf
+    m = re.match(r"(\d{4})_(\d{2})_", filename)
+    if m:
+        year, month = m.group(1), m.group(2)
+        last_day = calendar.monthrange(int(year), int(month))[1]
+        return f"{year}-{month}-{last_day:02d}"
+
+    # Legacy format: Portuguese month name
     month_map = {
         "janeiro": "01", "fevereiro": "02", "março": "03", "marco": "03",
         "abril": "04", "maio": "05", "junho": "06",
@@ -89,7 +104,6 @@ def _extract_month_from_filename(filename: str) -> str:
             year_match = re.search(r"(\d{4})", filename)
             if year_match:
                 year = year_match.group(1)
-                import calendar
                 last_day = calendar.monthrange(int(year), int(month_num))[1]
                 return f"{year}-{month_num}-{last_day:02d}"
     return ""

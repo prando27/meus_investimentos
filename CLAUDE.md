@@ -48,8 +48,8 @@ These are hard-won lessons from debugging the parser:
 
 ## Key Conventions
 
-- PDF filenames use underscores: `{Mês}_{Ano}_-_{Nome}_-_{ID}.pdf` (e.g. `Janeiro_2026_-_Jose_Antonio_Nazario_Prando_-_008588553.pdf`)
-- `_extract_month_from_filename()` matches Portuguese month names case-insensitively, works with both spaces and underscores
+- PDF filenames use standard format: `YYYY_MM_ACCOUNT.pdf` (e.g. `2026_01_008588553.pdf`). Legacy Portuguese names also supported.
+- `_extract_month_from_filename()` handles both `YYYY_MM_*` and Portuguese month name patterns
 - Source code in English, UI strings in Portuguese
 - System dependency: `tesseract` must be installed for proventos OCR (`brew install tesseract` on macOS, `apt-get install tesseract-ocr` in Docker)
 - Aportes (contributions) are exclusively for BTG Pactual
